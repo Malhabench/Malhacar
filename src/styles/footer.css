@@ -1,7 +1,9 @@
 .footer {
-  background: #000d6b;
-  padding-top: 50px;
-  padding-bottom: 15px;
+  background: #0B23C3;
+  height : 500px;
+  margin-top : 100px;
+  padding-top: 30px;
+  padding-bottom: 1px;
 }
 
 .footer__logo i {
@@ -42,7 +44,7 @@
 
 .office__info {
   color: rgba(255, 255, 255, 0.715);
-  font-weight: 300;
+  font-weight: 100;
 }
 
 .newsletter {
@@ -52,7 +54,7 @@
   padding: 8px 12px;
   border: 1px solid #7c8a972f;
   border-radius: 50px;
-  background: #020a4de9;
+  background: #C5CBF6;
 }
 
 .newsletter input {

@@ -38,7 +38,7 @@ const carData = [
     seatType: "Heated seats",
     automatic: "Automatic",
     description:
-      " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
+      " The Lamborghini Aventador is a high-performance sports car produced by the Italian luxury automobile manufacturer Lamborghini. Here's a brief description of the Lamborghini Aventado",
   },
 
   {
@@ -54,14 +54,14 @@ const carData = [
     seatType: "Heated seats",
     automatic: "Automatic",
     description:
-      " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
+      " BMW, short for Bayerische Motoren Werke AG, is a German luxury automobile and motorcycle manufacturer renowned for producing high-performance vehicles with a focus on precision engineering, innovative design, and driving pleasure. Founded in 1916, BMW has become one of the world's leading luxury car brands..",
   },
 
   {
     id: 4,
     brand: "Nissan",
     rating: 102,
-    carName: "Nissan Mercielago",
+    carName: "Nissan Alima",
     imgUrl: img04,
     model: "Model-2022",
     price: 70,
@@ -70,14 +70,14 @@ const carData = [
     seatType: "Heated seats",
     automatic: "Automatic",
     description:
-      " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
+      " The Nissan Altima typically features a modern and sleek design, with a focus on aerodynamics and efficiency. It often includes signature elements of Nissan's design language, such as the V-Motion grille and boomerang-shaped headlights.",
   },
 
   {
     id: 5,
     brand: "Ferrari",
     rating: 94,
-    carName: "Ferrari Camry",
+    carName: "Ferrari 812 Superfast",
     imgUrl: img05,
     model: "Model-2022",
     price: 45,
@@ -86,7 +86,7 @@ const carData = [
     seatType: "Heated seats",
     automatic: "Automatic",
     description:
-      " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
+      "A front-engine, rear-wheel-drive grand tourer with a V12 engine, known for its powerful performance. ",
   },
 
   {
@@ -102,7 +102,7 @@ const carData = [
     seatType: "Heated seats",
     automatic: "Automatic",
     description:
-      " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
+      " Mercedes-Benz is a renowned German luxury automobile manufacturer known for producing a wide range of premium vehicles",
   },
 
   {
@@ -118,7 +118,7 @@ const carData = [
     seatType: "Heated seats",
     automatic: "Automatic",
     description:
-      " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
+      " Mercedes-Benz is a renowned German luxury automobile manufacturer known for producing a wide range of premium vehicles",
   },
 
   {
@@ -134,7 +134,7 @@ const carData = [
     seatType: "Heated seats",
     automatic: "Automatic",
     description:
-      " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
+      " Mercedes-Benz is a renowned German luxury automobile manufacturer known for producing a wide range of premium vehicles",
   },
 ];
 

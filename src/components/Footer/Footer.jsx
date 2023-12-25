@@ -37,25 +37,6 @@ const Footer = () => {
     <footer className="footer">
       <Container>
         <Row>
-          <Col lg="4" md="4" sm="12">
-            <div className="logo footer__logo">
-              <h1>
-                <Link to="/home" className=" d-flex align-items-center gap-2">
-                  <i class="ri-car-line"></i>
-                  <span>
-                    Rent Car <br /> Service
-                  </span>
-                </Link>
-              </h1>
-            </div>
-            <p className="footer__logo-content">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Consequuntur, distinctio, itaque reiciendis ab cupiditate harum ex
-              quam veniam, omnis expedita animi quibusdam obcaecati mollitia?
-              Delectus et ad illo recusandae temporibus?
-            </p>
-          </Col>
-
           <Col lg="2" md="4" sm="6">
             <div className="mb-4">
               <h5 className="footer__link-title">Quick Links</h5>
@@ -72,12 +53,12 @@ const Footer = () => {
           <Col lg="3" md="4" sm="6">
             <div className="mb-4">
               <h5 className="footer__link-title mb-4">Head Office</h5>
-              <p className="office__info">123 Zindabazar, Sylhet, Bangladesh</p>
+              <p className="office__info">123 Amizour , Béjaia , Algeria</p>
               <p className="office__info">Phone: +0995345875365</p>
 
-              <p className="office__info">Email: muhib5532@gmail.com</p>
+              <p className="office__info">Email: malhabenc@gmail.com</p>
 
-              <p className="office__info">Office Time: 10am - 7pm</p>
+              <p className="office__info">Office Time: 09:00am - 07:00pm</p>
             </div>
           </Col>
 
@@ -98,7 +79,7 @@ const Footer = () => {
             <div className="footer__bottom">
               <p className="section__description d-flex align-items-center justify-content-center gap-1 pt-4">
                 <i class="ri-copyright-line"></i>Copyright {year}, Developed by
-                Muhibur Rahman. All rights reserved.
+                Malha Benchallal . All rights reserved.
               </p>
             </div>
           </Col>
