@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 import { Container, Row, Col } from "reactstrap";
 import { Link, NavLink } from "react-router-dom";
 import "../../styles/header.css";
-
+import logo from "../../assets/all-images/logo.png"
 
 const navLinks = [
   {
@@ -31,13 +31,16 @@ const Header = () => {
   return (
     <header className="header">
       
-      {/* ========== main navigation =========== */}
-
       <div className="main__navbar">
         <Container>
           <div className="navigation__wrapper d-flex align-items-center justify-content-between">
+            <Col lg="4" md="3" sm="4">
+              <div className="logo">
+                <img src={logo} alt="Logo" />
+              </div>
+            </Col>
             <span className="mobile__menu">
-              <i class="ri-menu-line" onClick={toggleMenu}></i>
+              <i className="ri-menu-line" onClick={toggleMenu}></i>
             </span>
 
             <div className="navigation" ref={menuRef} onClick={toggleMenu}>
@@ -59,7 +62,7 @@ const Header = () => {
               <div className="search__box">
                 <input type="text" placeholder="Search" />
                 <span>
-                  <i class="ri-search-line"></i>
+                  <i className="ri-search-line"></i>
                 </span>
               </div>
             </div>
@@ -72,8 +75,6 @@ const Header = () => {
 
       
     </header>
-    
-    
   );
 };
 
