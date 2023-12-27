@@ -1,96 +1,112 @@
-.footer {
-  background: #0B23C3;
-  height : 500px;
-  margin-top : 100px;
-  padding-top: 30px;
-  padding-bottom: 1px;
+.logo img {
+  width: 100px; 
+  height: auto; 
 }
 
-.footer__logo i {
+
+.main__navbar {
+  border-radius: 0px;
+  margin-bottom: 0px;
+  height : 70px;
+  padding: 10px 5px;
+  background: rgba(11, 35, 195, 1);
+}
+
+.mobile__menu i {
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.mobile__menu {
+  display: none;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  column-gap: 2.7rem;
+}
+
+.nav__item {
   color: #fff;
-  font-weight: 400;
-}
-
-.footer__logo span {
-  color: #fff;
-  font-weight: 500;
-}
-
-.footer__logo-content {
-  color: rgba(255, 255, 255, 0.715);
-  margin-top: 15px;
-  line-height: 30px;
-}
-
-.quick__link {
-  border: none !important;
-  background: transparent !important;
-}
-
-.quick__link a {
-  color: rgba(255, 255, 255, 0.715);
   text-decoration: none;
-  font-weight: 300;
   transition: 0.3s;
 }
 
-.quick__link a:hover {
+.nav__item:hover {
   color: #f9a826;
 }
 
-.footer__link-title {
-  color: #fff;
-}
-
-.office__info {
-  color: rgba(255, 255, 255, 0.715);
-  font-weight: 100;
-}
-
-.newsletter {
+.search__box {
+  border: 1px solid #7c8a972f;
+  height : 40px;
+  padding: 15px 10px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding: 8px 12px;
-  border: 1px solid #7c8a972f;
   border-radius: 50px;
-  background: #C5CBF6;
+  background: rgba(217, 222, 255, 1);
 }
 
-.newsletter input {
+.search__box input {
   background: transparent;
-  color: #fff;
   border: none;
   outline: none;
+  color: rgba(11, 35, 195, 1);
+  cursor: pointer;
 }
 
-.newsletter span i {
-  color: #fff;
+.search__box input::placeholder {
+  font-size: 0.8rem;
+}
+.search__box span i {
+  color: rgba(255, 255, 255, 0.555);
+  cursor: pointer;
 }
 
-.footer__bottom {
-  border-top: 1px solid #7c8a972f;
+.nav__active {
+  color: #f9a826;
 }
 
 @media only screen and (max-width: 768px) {
-  .footer__logo-content {
-    font-size: 0.8rem;
+  .header__top,
+  .header__middle,
+  .nav__right {
+    display: none;
   }
 
-  .quick__link,
-  .office__info {
-    font-size: 0.8rem;
-    line-height: 1.5rem;
+  .mobile__menu {
+    display: block;
   }
 
-  .footer__link-title {
-    font-size: 1rem;
-    margin-top: 15px;
+  .navigation {
+    background: rgb(0, 13, 107, 0.6);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    display: none;
   }
 
-  .footer__bottom p {
-    font-size: 0.7rem;
+  .menu {
+    width: 250px;
+    height: 100%;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 2rem;
+    justify-content: center;
   }
 
-  
+  .menu a {
+    color: #000d6b;
+    font-weight: 600;
+    font-size: 0.9rem;
+  }
+
+  .menu__active {
+    display: block;
+  }
 }
